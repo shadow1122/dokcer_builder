@@ -7,3 +7,4 @@ RUN apt -y install --reinstall gcc-11 gcc-11-base libgcc-11-dev
 RUN apt purge -y build-essential && apt -y autoremove
 RUN apt -y install cmake 
 RUN apt-get -y install valgrind
+RUN apt -y install nano
